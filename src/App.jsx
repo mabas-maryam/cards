@@ -130,7 +130,7 @@ const App = () => {
 
   ]
   return (
-    <div className='grid grid-cols-4 gap-4 h-screen p-4 overflow-auto'>
+    <div className='grid grid-cols-1 md:grid-cols-4 gap-4 h-screen p-4 overflow-auto'>
       {
         celebrities.map((celebrity) => <Card celebrity={celebrity} />)
       }
